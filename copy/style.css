@@ -1,0 +1,25 @@
+.fruits li:first-child {
+  color: red;        /* Mango is red */
+}
+
+.fruits li:last-child {
+  color: blue;       /* Watermelon is blue */
+}
+
+.fruits li:nth-child(even) {
+  background-color: lightyellow;  /* every second item is yellow */
+}
+
+.star-title::before {
+  content: "⭐ ";
+}
+
+.star-title::after {
+  content: " ⭐";
+}
+
+.note::before {
+  content: "📌 Remember: ";
+  color: red;
+  font-weight: bold;
+}

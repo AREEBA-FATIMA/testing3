@@ -1,0 +1,14 @@
+.color-box {
+  width: 200px;
+  height: 100px;
+  background-color: skyblue;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  line-height: 100px;
+  transition: background-color 3s linear 0s;  /* color changes in 1 second */
+}
+
+.color-box:hover {
+  background-color: hotpink;
+}
